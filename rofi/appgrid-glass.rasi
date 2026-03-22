@@ -1,0 +1,71 @@
+* {
+  bg:    #000000cc;   /* glassy black (80% opacity) */
+  bg2:   #111111b3;   /* darker card (70% opacity) */
+  fg:    #e6eaf0ff;   /* text */
+  acc:   #89b4faff;   /* accent */
+  font:  "JetBrainsMono Nerd Font 12";
+}
+
+window {
+  fullscreen: true;
+  location: center;
+  border: 0px;
+  background-color: @bg;      /* semi-transparent to let blur show */
+}
+
+mainbox {
+  background-color: @bg;      /* keep same tint behind content */
+  padding: 24px 28px;
+  children: [ inputbar, listview ];
+}
+
+inputbar {
+  background-color: #00000099; /* slightly darker bar */
+  border-radius: 14px;
+  padding: 10px 14px;
+  children: [ entry ];
+}
+
+entry {
+  text-color: @fg;
+  placeholder: "Search apps…";
+  background-color: transparent;
+}
+
+listview {
+  background-color: transparent; /* no white canvas */
+  columns: 7;
+  lines: 5;
+  cycle: true;
+  dynamic: true;
+  fixed-height: false;
+  spacing: 14px;
+  padding: 18px 0 0 0;
+  scrollbar: false;
+}
+
+/* base */
+element {
+  orientation: vertical;
+  children: [ element-icon, element-text ];
+  background-color: transparent;
+  border-radius: 16px;
+  padding: 16px 12px;
+  border: 0px;
+}
+
+/* ensure no white blocks anywhere */
+element normal    { background-color: transparent; border: 0px; }
+element alternate { background-color: transparent; border: 0px; }
+
+/* selected card */
+element selected {
+  background-color: @bg2;
+  border: 2px;
+  border-color: @acc;
+}
+
+element-icon { size: 68px; expand: false; margin: 0 0 8px 0; background-color: transparent; }
+element-text { text-color: @fg; horizontal-align: 0.5; background-color: transparent; }
+
+separator { background-color: transparent; }

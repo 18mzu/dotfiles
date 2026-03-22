@@ -1,0 +1,24 @@
+# cache
+.cache/
+**/Cache/
+**/GPUCache/
+
+# apps
+discord/
+Electron/
+spotify/
+ZaloData/
+ZaloPC/
+
+# browser
+.mozilla/
+
+# binaries
+*.node
+*.so
+
+# logs
+*.log
+
+# secrets
+.env

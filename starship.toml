@@ -1,0 +1,26 @@
+# =========================
+#   Zen Line-Break Prompt
+# =========================
+
+format = """
+$directory$git_branch
+$character
+"""
+
+# Thư mục
+[directory]
+style = "bold fg:#cccccc"
+format = "[$path]($style) "
+truncation_length = 2
+truncate_to_repo = false
+
+# Git branch
+[git_branch]
+style = "fg:#999999"
+format = "on  [$branch]($style)"
+
+# Prompt cuối dòng
+[character]
+success_symbol = "[❯](fg:#ff5555) "
+error_symbol = "[❯](fg:#ff3333) "
+

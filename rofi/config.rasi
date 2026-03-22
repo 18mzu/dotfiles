@@ -1,0 +1,11 @@
+@theme "~/.config/rofi/appgrid-glass.rasi"
+
+configuration {
+  modes: [ "drun" ];
+  modi: "drun";
+  show-icons: true;
+  icon-theme: "Papirus-Dark";
+  drun-display-format: "{name}";
+  font: "JetBrainsMono Nerd Font 12";
+}
+

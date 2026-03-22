@@ -1,0 +1,27 @@
+{
+  "cpp-template": {
+    "prefix": "template",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "#pragma GCC optimize(\"O3\",\"unroll-loops\")",
+      "using namespace std;",
+      "using ll = long long;",
+      "#define pb push_back",
+      "#define vll vector <ll>",
+      "#define vpll vector <pair<ll,ll>>",
+      "#define all(x) x.begin(), x.end()",
+      "#define sz(x) (ll)x.size()",
+      "#define fi first",
+      "#define se second",
+      "#define fo(i,a,b) for (ll i = (a); i < (b); ++i)",
+      "int main() {",
+      "    ios_base::sync_with_stdio(false);",
+      "    cin.tie(nullptr);",
+      "     ",
+      "    return 0;",
+      "}"
+    ],
+    "description": "zuzuzu"
+  }
+}
+
