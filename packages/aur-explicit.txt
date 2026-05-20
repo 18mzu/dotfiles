@@ -1,0 +1,5 @@
+chhsich-nerd-font
+cpptrace-debug
+fcitx5-lotus-bin
+paru-debug
+quickshell-git

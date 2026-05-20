@@ -2,6 +2,9 @@
 .cache/
 **/Cache/
 **/GPUCache/
+**/.cache/
+**/cache/
+fcitx5/conf/cached_layouts
 
 # apps
 discord/
@@ -9,9 +12,12 @@ Electron/
 spotify/
 ZaloData/
 ZaloPC/
+node_modules/
 
 # browser
 .mozilla/
+mozilla/
+zen/
 
 # binaries
 *.node
@@ -19,6 +25,18 @@ ZaloPC/
 
 # logs
 *.log
+*.db
+*.db-shm
+*.db-wal
 
 # secrets
 .env
+*.pem
+*.key
+*token*
+*secret*
+hosts.yml
+cookies.sqlite
+key4.db
+logins.json
+fish_history
