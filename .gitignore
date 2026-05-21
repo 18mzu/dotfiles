@@ -40,3 +40,24 @@ cookies.sqlite
 key4.db
 logins.json
 fish_history
+
+# HyDE auto-generated (exclude from main)
+hypr/themes/
+hypr/animations/
+hypr/animations.conf
+hypr/hypridle.conf
+hypr/hyprlock/
+hypr/hyprsunset.conf
+hypr/monitors.conf
+hypr/nvidia.conf
+hypr/shaders.conf
+hypr/userprefs.conf
+hypr/windowrules.conf
+hypr/workflows.conf
+hypr/workflows/
+waybar/layouts/
+waybar/includes/
+waybar/theme.css
+fish/conf.d/hyde.fish
+fish/functions/bind_M_n_history.fish
+fish/functions/fzf/
