@@ -19,4 +19,4 @@ The script links tracked config directories into `~/.config` and selected home
 dotfiles into `$HOME`. It also prints package restore commands instead of
 installing packages automatically.
 
-SDDM is intentionally not tracked here.
+System-level configs (`/etc/` files) are tracked under `etc/` and applied manually (see restore.sh).
