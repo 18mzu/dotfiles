@@ -2,7 +2,7 @@
 
 my dotfiles
 
-## Restore
+# Usage
 
 Run from the repo root:
 
