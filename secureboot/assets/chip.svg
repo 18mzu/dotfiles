@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <mask id="chip">
+      <rect width="200" height="200" fill="#000000"/>
+      <rect x="54" y="54" width="92" height="92" rx="12" fill="#ffffff"/>
+      <g fill="#ffffff">
+        <rect x="68" y="38" width="12" height="20" rx="3"/>
+        <rect x="94" y="38" width="12" height="20" rx="3"/>
+        <rect x="120" y="38" width="12" height="20" rx="3"/>
+        <rect x="68" y="142" width="12" height="20" rx="3"/>
+        <rect x="94" y="142" width="12" height="20" rx="3"/>
+        <rect x="120" y="142" width="12" height="20" rx="3"/>
+        <rect x="38" y="68" width="20" height="12" rx="3"/>
+        <rect x="38" y="94" width="20" height="12" rx="3"/>
+        <rect x="38" y="120" width="20" height="12" rx="3"/>
+        <rect x="142" y="68" width="20" height="12" rx="3"/>
+        <rect x="142" y="94" width="20" height="12" rx="3"/>
+        <rect x="142" y="120" width="20" height="12" rx="3"/>
+      </g>
+      <rect x="84" y="84" width="32" height="32" rx="5" fill="#000000"/>
+    </mask>
+  </defs>
+  <rect width="200" height="200" fill="#ffffff" mask="url(#chip)"/>
+</svg>
