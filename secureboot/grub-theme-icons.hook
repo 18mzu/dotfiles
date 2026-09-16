@@ -1,0 +1,15 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = grub
+Target = linux
+Target = linux-lts
+Target = linux-zen
+Target = linux-hardened
+
+[Action]
+Description = Re-adding theme classes to GRUB entries (Advanced options / UEFI)...
+When = PostTransaction
+Exec = /usr/local/bin/grub-theme-icons.py
